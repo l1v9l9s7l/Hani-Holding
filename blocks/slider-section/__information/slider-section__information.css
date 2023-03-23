@@ -1,0 +1,11 @@
+.slider-section__information{
+  height: 690px;
+  background-color: #C6BEAF;
+  width: 1280px;
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  margin-top: 300px;
+  display: flex;
+
+}

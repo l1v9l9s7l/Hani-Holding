@@ -1,0 +1,15 @@
+.grid__item{
+  display: flex;
+  background-color: #7CB92D;
+  border-radius: 10px;
+  height: 23vh;
+  color: white;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+  text-decoration: none;
+}
+
+.grid__item:hover{
+  /* box-shadow: 0px 0px 20px rgba(206, 207, 202, 0.695); */
+  opacity: 0.87;
+}

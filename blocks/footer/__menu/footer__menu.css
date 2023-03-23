@@ -1,0 +1,8 @@
+.footer__menu{
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  position: relative;
+  margin-bottom: 42px;
+}

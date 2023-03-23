@@ -1,0 +1,13 @@
+.slider-section__image-text{
+  position: absolute;
+  color: white;
+  font-size: 88px;
+  width: 1000px;
+  line-height: 54px;
+  text-align: end;
+  top: -20px;
+  right: 35px;
+  font-family: "Cormorant Unicase";
+  font-weight: 700;
+  text-transform: uppercase;
+}

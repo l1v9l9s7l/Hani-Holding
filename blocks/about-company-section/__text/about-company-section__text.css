@@ -1,0 +1,14 @@
+.about-company-section__text{
+  font-size: 45px;
+  font-family: 'Cormorant Unicase';
+  width: 500px;
+  padding-top: 130px;
+}
+
+.about-company-section__text:nth-child(3){
+  font-size: 14px;
+  font-family: 'Inter';
+  width: 500px;
+  line-height: 21px;
+  padding-top: 0px;
+}

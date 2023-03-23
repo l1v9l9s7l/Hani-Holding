@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'Inter';
+	src: url(./Inter/Inter-Black.woff);
+	src: url(./Inter/Inter-Bold.woff2);
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url(./Inter/Inter-Regular.woff);
+	src: url(./Inter/Inter-Regular.woff2);
+	font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("./Inter/Inter-Black.woff2") format("woff2");
+  src: url("./Inter/Inter-Black.woff") format("woff");
+  font-weight: 900;
+}
+
+@font-face {
+	font-family: 'Cormorant Unicase';
+	src: url(./CormorantUnicase/CormorantUnicase-Bold.ttf);
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Cormorant Unicase';
+	src: url(./CormorantUnicase/CormorantUnicase-Regular.ttf);
+	font-weight: 400;
+}
+

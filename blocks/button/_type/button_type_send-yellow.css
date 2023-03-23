@@ -1,0 +1,11 @@
+.button_type_send-yellow{
+    margin: 0 auto 0 auto;
+    border-radius: 30px;
+    border-color: #A68B6E;
+    color: #A68B6E;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 20px;
+    background-color: #FBF9F6;
+}

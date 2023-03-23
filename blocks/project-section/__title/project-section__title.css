@@ -1,0 +1,19 @@
+.project-section__title{
+  font-family: 'Inter';
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.project-section__title:nth-child(2){
+  font-family: 'Cormorant Unicase';
+  font-size: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.project-section__title:nth-child(3){
+  font-family: 'Inter';
+  font-size: 18px;
+  margin-bottom: 40px;
+}

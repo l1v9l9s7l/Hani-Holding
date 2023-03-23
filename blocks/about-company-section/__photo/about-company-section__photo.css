@@ -1,0 +1,8 @@
+.about-company-section__photo{
+  max-height: 544px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 200px;
+  z-index: 0;
+}

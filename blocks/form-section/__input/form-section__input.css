@@ -1,0 +1,10 @@
+.form-section__input{
+  border: 1px solid #A68B6E;
+  height: 45px;
+  width: calc(100% - 2px);
+  padding: 0;
+}
+
+.form-section__input::placeholder{
+ color: #A68B6E;
+}

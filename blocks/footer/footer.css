@@ -1,0 +1,7 @@
+.footer{
+  height: 460px;
+  padding: 0px 164px;
+  padding-top: 110px;
+  background-image: url(../../images/footer-backgrond-Image.jpg);
+  background-size: contain;
+}

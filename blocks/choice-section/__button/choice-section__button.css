@@ -1,0 +1,18 @@
+.choice-section__button{
+  background-color: white;
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: inset -12px 0 38px -4px rgba(0, 0, 0, 0.09);
+  opacity: 0.8;
+}
+
+.choice-section__button:nth-child(1){
+  background-color: #EFECE7;
+}
+
+.choice-section__button:hover{
+  opacity: 1;
+}

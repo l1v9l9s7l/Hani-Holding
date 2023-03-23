@@ -1,0 +1,4 @@
+.about-objects-section{
+  display: flex;
+  flex-direction: column;
+}

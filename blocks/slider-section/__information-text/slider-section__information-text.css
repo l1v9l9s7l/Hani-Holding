@@ -1,0 +1,15 @@
+.slider-section__information-text{
+  text-align: end;
+  display: block;
+  color: #4F4B4B;
+  width: 430px;
+  text-align: left;
+  font-size: 12px;
+  font-family: "Inter";
+  margin: 10px 0 0 0;
+  
+}
+
+/* .slider-section__information-text:nth-child(3){
+  marg
+} */

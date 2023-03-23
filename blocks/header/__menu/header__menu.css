@@ -1,0 +1,10 @@
+.header__menu{
+  background-image: url(../../../images/menuButton.png);
+  border: none;
+  width: 47px;
+  height: 23px;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 0px;
+}

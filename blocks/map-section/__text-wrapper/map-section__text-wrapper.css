@@ -1,0 +1,13 @@
+.map-section__text-wrapper{
+  display: flex;
+  width: 35%;
+  height: calc((100vw - 20px) * 0.2);
+  background-color: white;
+  flex-direction: column;
+  margin-left: 100px;
+  z-index: 2;
+  border-radius: 10px;
+  box-shadow: 23px 31px 82px 10px #A68B6E21;
+  margin-top: 120px;
+  justify-content: center;
+}
