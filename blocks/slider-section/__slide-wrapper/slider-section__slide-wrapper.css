@@ -1,0 +1,11 @@
+.slider-section__slide-wrapper{
+  width: 410px;
+  height: 410px;
+  background-color: #FAFAFA;
+  border-radius: 8px;
+  position: relative;
+}
+
+.slider-section__slide-wrapper:nth-child(2){
+  margin: 0 10px 0 10px;
+}

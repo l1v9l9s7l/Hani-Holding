@@ -1,6 +1,29 @@
-.choice-section__subtitle{
+.choice-section__subtitle_1{
   font-size: 40px;
   font-weight: 700;
   font-family: 'Cormorant Unicase';
   margin-top: 5px;
+  color: #856A4D;
+  line-height: 40px;
+  margin-bottom: 0;
+}
+
+.choice-section__subtitle_2{
+  font-size: 49px;
+  font-weight: 400;
+  font-family: 'Gloock';
+  margin-top: 5px;
+  color: #83918F;
+  line-height: 54px;
+  margin-bottom: 0;
+}
+
+.choice-section__subtitle_3{
+  font-size: 55px;
+  font-weight: 700;
+  font-family: 'Cormorant';
+  margin-top: 5px;
+  color: #525F78;
+  line-height: 60px;
+  margin-bottom: 0;
 }

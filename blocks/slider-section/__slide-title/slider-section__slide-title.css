@@ -1,0 +1,35 @@
+.slider-section__slide-title_1{
+  font-size: 12px;
+  font-family: 'Libre Baskerville';
+  font-weight: 700;
+  line-height: 0px;
+  margin-bottom: 0;
+  color: #83918F;
+  text-align: right;
+  padding-top: 35px;
+  padding-right: 45px;
+}
+
+.slider-section__slide-title_2{
+  font-size: 12px;
+  font-family: 'Libre Baskerville';
+  font-weight: 700;
+  line-height: 0px;
+  margin-bottom: 0;
+  color: #856A4D;
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 35px;
+  padding-right: 50px;
+}
+
+.slider-section__slide-title_3{
+  font-size: 12px;
+  font-family: 'Libre Baskerville';
+  font-weight: 700;
+  line-height: 0px;
+  margin-bottom: 0;
+  color: #525F78;
+  text-align: center;
+  padding-top: 35px;
+}

@@ -1,5 +1,6 @@
 /*fonts*/
 @import url(../vendors/fonts/fonts.css);
+@import url(../blocks/text/_align/text_align.css);
 /* margin */
 @import url(../blocks/margin/margin.css);
 /* width */
@@ -18,8 +19,14 @@
 /* color */
 @import url(../blocks/color/color.css);
 
+/* slider */
 @import url(../blocks/slider-section/__slider-image/slider-section__slider-image.css);
 @import url(../blocks/slider-section/__slider/slider-section__slider.css);
+@import url(../blocks/slider-section/__slide-wrapper/slider-section__slide-wrapper.css);
+@import url(../blocks/slider-section/__slide-title/slider-section__slide-title.css);
+@import url(../blocks/slider-section/__slide-subtitle/slider-section__slide-subtitle.css);
+@import url(../blocks/slider-section/__text-wrapper/slider-section__text-wrapper.css);
+@import url(../blocks/slider-section/__slide-adress/slider-section__slide-adress.css);
 /* position */
 @import url(../blocks/position/position.css);
 /* text */

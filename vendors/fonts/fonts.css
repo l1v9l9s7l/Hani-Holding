@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Inter';
-	src: url(./Inter/Inter-Black.woff);
+	src: url(./Inter/Inter-Bold.woff);
 	src: url(./Inter/Inter-Bold.woff2);
 	font-weight: 700;
 }
@@ -14,9 +14,28 @@
 
 @font-face {
   font-family: 'Inter';
-  src: url("./Inter/Inter-Black.woff2") format("woff2");
-  src: url("./Inter/Inter-Black.woff") format("woff");
+  src: url(./Inter/Inter-Black.woff2) format("woff2");
+  src: url(./Inter/Inter-Black.woff) format("woff");
   font-weight: 900;
+}
+
+
+@font-face {
+	font-family: 'Cormorant Unicase';
+	src: url(./CormorantUnicase/CormorantUnicase-Regular.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Cormorant Unicase';
+	src: url(./CormorantUnicase/CormorantUnicase-Medium.ttf);
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Cormorant Unicase';
+	src: url(./CormorantUnicase/CormorantUnicase-SemiBold.ttf);
+	font-weight: 600;
 }
 
 @font-face {
@@ -25,9 +44,53 @@
 	font-weight: 700;
 }
 
+
 @font-face {
-	font-family: 'Cormorant Unicase';
-	src: url(./CormorantUnicase/CormorantUnicase-Regular.ttf);
+	font-family: 'Libre Baskerville';
+	src: url(./LibreBaskerville/LibreBaskerville-Regular.ttf);
 	font-weight: 400;
 }
 
+@font-face {
+	font-family: 'Libre Baskerville';
+	src: url(./LibreBaskerville/LibreBaskerville-Italic.ttf);
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Libre Baskerville';
+	src: url(./LibreBaskerville/LibreBaskerville-Bold.ttf);
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Gloock';
+	src: url(./Gloock/Gloock-Regular.ttf);
+	font-weight: 400;
+}
+
+
+@font-face {
+	font-family: 'Cormorant';
+	src: url(./Cormorant/Cormorant-Regular.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Cormorant';
+	src: url(./Cormorant/Cormorant-Medium.ttf);
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Cormorant';
+	src: url(./Cormorant/Cormorant-SemiBold.ttf);
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Cormorant';
+	src: url(./Cormorant/Cormorant-Bold.ttf);
+	font-weight: 700;
+}
