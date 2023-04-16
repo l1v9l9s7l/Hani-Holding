@@ -3,3 +3,17 @@
   position: relative;
   height: 1130px;
 }
+
+
+@media screen and (max-width: 1439px) {
+  .slider-section{
+    height: 800px;
+  }
+}
+
+
+@media screen and (max-width: 1023px) {
+  .slider-section{
+    height:  1730px;
+  }
+}

@@ -10,3 +10,16 @@
   border-radius: 0px 0px 8px 0px
 
 }
+
+@media screen and (max-width: 1023px) {
+  .slider-section__information{
+    height: 690px;
+    background-color: #c6beaf00;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    margin-top: 800px;
+    bottom: 0px;
+  }
+  
+}

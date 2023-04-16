@@ -1,4 +1,11 @@
 .footer__contacts-text-wrapper{
   width: 209px;
-  text-align: center;
+  text-align: center;;
+}
+
+
+@media screen and (max-width: 1023px) {
+  .footer__contacts-text-wrapper{
+    margin: auto;
+  }
 }

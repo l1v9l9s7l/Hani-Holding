@@ -7,3 +7,10 @@
   background-color: #FBF9F6;
   padding: 0 45px 0 45px;
 }
+
+
+@media screen and (max-width: 1023px) {
+  .header{
+    height: 60px;
+  }
+}

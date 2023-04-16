@@ -1,28 +1,28 @@
 .slider-section__slide-subtitle_1{
-  font-family: 'Gloock';
-  font-weight: 400;
-  font-size: 38px;
+  font-family: 'Cormorant Unicase';
+  font-weight: 700;
+  font-size: 29px;
   margin-top: 0;
-  color: #83918F;
+  color: #856A4D;
   text-align: center;
   margin-bottom: 16px;
 }
 
 .slider-section__slide-subtitle_2{
-  font-family: 'Cormorant Unicase';
-  font-weight: 700;
-  font-size: 35px;
+  font-family: 'Gloock';
+  font-weight: 400;
+  font-size: 40px;
   line-height: 40px;
   margin-top: 0;
-  color: #856A4D;
+  color: #83918F;
   text-align: center;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
 }
 
 .slider-section__slide-subtitle_3{
   font-family: 'Cormorant';
   font-weight: 700;
-  font-size: 44px;
+  font-size: 40px;
   margin-top: 0;
   color: #525F78;
   text-align: center;

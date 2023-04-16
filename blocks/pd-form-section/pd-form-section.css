@@ -1,0 +1,38 @@
+.pd-form-section{
+  position: relative;
+  display: flex;
+  width: 1380px;
+  display: flex;
+  margin-top: 91px;
+  right: 0;
+  padding-right: 0px;
+  margin-bottom: 120px;
+  /* padding-left: 225px; */
+}
+
+.pd-form-section__form{
+  z-index: 2;
+  position: absolute;
+  background-color: white;
+  border-radius: 8px;
+  padding: 67px 77px 59px 77px;
+  right: 0;
+}
+
+.pd-form-header-text{
+  font-family: 'Cormorant Unicase';
+  font-size: 40px;
+  text-align: left;
+  line-height: 37px;
+  margin: 0 0 44px 0;
+  font-weight: 700;
+  color: #4F4B4B;
+}
+
+.pd-form-section__image{
+  padding-top: 100px;
+  height: 544px;
+  width: 875px;
+  left: 0px;
+  border-radius: 8px;
+}

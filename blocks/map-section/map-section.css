@@ -4,3 +4,47 @@
   margin-top: 132px;
   display: flex;
 }
+
+.map-section-header-text{
+  font-family: 'Cormorant Unicase';
+  font-size: 42px;
+  margin: 0 auto 5% auto;
+  font-weight: 700;
+  color: #4F4B4B;
+  max-width: 400px;
+  text-align: left;
+}
+
+@media screen and (max-width: 1919px) {
+  .map-section{
+    height: 800px;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .map-section-header-text{
+    font-size: 30px;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .map-section{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .map-section-header-text{
+    font-size: 25px;
+    max-width: 250px;
+    text-align: center;
+    display: flex;
+  }
+
+  .map-section__button{
+    margin: auto;
+  }
+}

@@ -36,6 +36,14 @@
   margin-left: 7px;
 }
 
+@media screen and (max-width: 1023px) {
+  .ml7 {
+    margin-left: 0px;
+  }
+  
+}
+
+
 .ml8 {
   margin-left: 8px;
 }
@@ -56,6 +64,9 @@
   margin-left: 90px;
 }
 
+.ml135 {
+  margin-left: 135px;
+}
 
 /* right */
 .mr1 {
@@ -104,6 +115,10 @@
 
 .mr60 {
   margin-right: 60px;
+}
+
+.mr70 {
+  margin-right: 70px;
 }
 
 .mr80 {
@@ -159,6 +174,10 @@
   margin-top: 35px;
 }
 
+.mt51 {
+  margin-top: 51px;
+}
+
 /* bottom */
 
 .mb1 {
@@ -208,3 +227,60 @@
 .mb100 {
   margin-bottom: 100px;
 }
+
+
+
+
+
+
+
+
+
+/* padding */
+
+
+/* left */
+
+
+.pl8 {
+  padding-left: 8px;
+}
+
+.pl80 {
+  padding-left: 80px;
+}
+
+/* right */
+
+.pr8 {
+  padding-right: 8px;
+}
+
+
+/* top */
+
+
+.pt8 {
+  padding-top: 8px;
+}
+
+.pt13 {
+  padding-top: 13px;
+}
+
+.pt15 {
+  padding-top: 15px;
+}
+
+
+.pt20 {
+  padding-top: 20px;
+}
+
+/* bottom */
+
+.pb8 {
+  padding-bottom: 8px;
+}
+
+

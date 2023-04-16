@@ -6,3 +6,19 @@
   padding: 67px 93px 59px 93px;
   top:-15px;
 }
+
+@media screen and (max-width: 1439px) {
+  .form-section__form{
+    width: 640px;
+    height: 450;
+    top:-250px;
+  }
+}
+
+
+@media screen and (max-width: 1023px) {
+  .form-section__form{
+    top: -50px;
+    width: 278px;
+  }
+}

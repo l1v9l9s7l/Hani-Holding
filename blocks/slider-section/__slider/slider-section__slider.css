@@ -5,3 +5,19 @@
   top: 500px;
   width: 100%;
 }
+
+
+@media screen and (max-width: 1439px) {
+  .slider-section__slider{
+    top: 250px;
+    width: 100%;
+  }
+  
+}
+
+@media screen and (max-width: 1023px) {
+  .slider-section__slider{
+    flex-direction: column;
+  }
+  
+}

@@ -20,3 +20,29 @@
   font-weight: 600;
   margin: 0;
 }
+
+
+@media screen and (max-width: 1439px) {
+  .owner-section__text{
+    font-family: 'Cormorant Unicase';
+    font-size: 22px;
+    font-weight: 500;
+    color: #4F4B4B;
+    line-height: 20px;
+  }
+  
+  .owner-section__text:nth-child(2){
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 18px;
+    margin-bottom: 0;
+  }
+  
+  .owner-section__text:nth-child(4){
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+  }
+}

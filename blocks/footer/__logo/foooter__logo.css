@@ -4,3 +4,27 @@
   top: -14px;
   background-color: #4F4B4B;
 }
+
+ .footer__logo-wrapper{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: -20px;
+  }
+
+
+
+
+@media screen and (max-width: 1023px) {
+  .footer__logo{
+    width: 140px;
+    margin: auto;
+
+  }
+
+  .footer__logo-wrapper{
+    display: flex;
+    justify-content: center;
+    position: unset;
+  }
+}

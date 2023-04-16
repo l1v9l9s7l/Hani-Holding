@@ -153,6 +153,14 @@
 @import url(../blocks/choice-section/__subtitle/choice-section__subtitle.css);
 @import url(../blocks/choice-section/__adress/choice-section__adress.css);
 @import url(../blocks/project-map/project-map.css);
+/*pd-top-section*/
+@import url(../blocks/pd-top-section/pd-top-section.css);
+/*pd-middle-section*/
+@import url(../blocks/pd-middle-section/pd-middle-section.css);
+/*pd-form-section*/
+@import url(../blocks/pd-form-section/pd-form-section.css);
+/*od-top-section*/
+@import url(../blocks/od-top-section/od-top-section.css);
 /* table */
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/__header/_type/table__header_type_lager.css);

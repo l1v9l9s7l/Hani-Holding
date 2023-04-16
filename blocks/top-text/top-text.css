@@ -12,3 +12,9 @@
 .top-text:nth-child(2){
   color: #DDD9D1;
 }
+
+@media screen and (max-width: 1439px) {
+  .top-text{
+    font-size: 41px;
+  }
+}

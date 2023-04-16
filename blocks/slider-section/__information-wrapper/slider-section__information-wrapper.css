@@ -4,3 +4,13 @@
   padding-top: 2380px;
   display: flex;
 }
+
+
+@media screen and (max-width: 1023px) {
+  .slider-section__information-wrapper{
+    flex-direction: column;
+    padding-top: 0;
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+}

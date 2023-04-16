@@ -3,3 +3,22 @@
   margin-right: 31px;
   margin-left: 15px;
 }
+
+.slider-section__information-slash-360{
+  display: none;
+}
+
+
+@media screen and (max-width:1023px) {
+  .slider-section__information-slash{
+    display: none;
+  }
+  
+  .slider-section__information-slash-360{
+    display: block;
+    height: 1px;
+    width: 35%;
+    margin-top: 23px;
+    margin-bottom: 23px;
+  }
+}

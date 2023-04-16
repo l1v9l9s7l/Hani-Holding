@@ -1,6 +1,29 @@
 .slider-section__image{
   width: 94%;
   display: block;
-  margin: 54px auto 0 auto;
+  margin: 20px auto 0 auto;
   border-radius: 8px;
+}
+
+.slider-section__image-360{
+  display: none;
+}
+
+@media screen and (max-width: 1439px) {
+  .slider-section__image{
+    width: 100%;
+    margin: 0px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .slider-section__image-360{
+    width: 100%;
+    display: block;
+    margin: 0px auto 0 auto;
+  }
+
+  .slider-section__image{
+    display: none;
+  }
 }

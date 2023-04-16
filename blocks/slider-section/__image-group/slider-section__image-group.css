@@ -2,3 +2,12 @@
   position: relative;
   z-index: 1;
 }
+
+
+/* @media screen and (max-width: 1023px) {
+  .slider-section__image-group{
+    position: relative;
+    z-index: 1;
+  }
+
+} */

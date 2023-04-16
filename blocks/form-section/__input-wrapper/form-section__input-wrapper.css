@@ -1,3 +1,12 @@
 .form-section__input-wrapper{
   display: flex;
 }
+
+
+@media screen and (max-width: 1023px) {
+  .form-section__input-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
