@@ -5,5 +5,12 @@
   margin: 0 auto 5% auto;
   font-weight: 700;
   color: #4F4B4B;
-  max-width: 400px;
+}
+
+@media screen and (max-width:1023px) {
+  .form-header-text{
+    font-size: 25px;
+    width: 100%;
+    /* margin: 340px; */
+  }
 }

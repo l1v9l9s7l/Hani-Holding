@@ -5,3 +5,17 @@
   color: #A68B6E;
   width: 330px;
 }
+
+
+@media screen and (max-width: 1023px) {
+  .about-objects-section__table-title{
+    font-size: 25px;
+    width: 250px;
+    padding-left: 31px;
+  }
+
+  .about-objects-section__table-title_2{
+    padding-left: 41px;
+  }
+
+}

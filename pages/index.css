@@ -161,6 +161,16 @@
 @import url(../blocks/pd-form-section/pd-form-section.css);
 /*od-top-section*/
 @import url(../blocks/od-top-section/od-top-section.css);
+/*od-info-section*/
+@import url(../blocks/od-info-section/od-info-section.css);
+/* od-gallery */
+@import url(../blocks/od-gallery/od-gallery.css);
+/* od-vr-section */
+@import url(../blocks/od-vr-section/od-vr-section.css);
+/* od-standort-section */
+@import url(../blocks/od-standort-section/od-standort-section.css);
+/* os-top-section */
+@import url(../blocks/os-top-section/os-top-section.css);
 /* table */
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/__header/_type/table__header_type_lager.css);

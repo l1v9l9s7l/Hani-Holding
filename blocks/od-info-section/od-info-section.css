@@ -1,0 +1,84 @@
+.od-info-section{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+  "eckdaten object"
+  "details details";
+  justify-content: center;
+  gap: 86px;
+  width: 1052px;
+  margin: 70px 60px 0 auto;
+  height: 770px;
+}
+
+.od-info-section__title{
+  font-family: Cormorant;
+font-size: 28px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+  color: #4F4B4B;
+}
+
+.od-info-section__ga1-text{
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#4F4B4B;
+
+}
+
+.od-info-section__ga2-text{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;  
+  color:#4F4B4B;
+
+}
+
+.od-info-section__ga3-text{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;  
+  color:#4F4B4B;
+  max-width: 415px;
+
+}
+
+
+.od-info-section__ga3-text-wrapper{
+  padding-left: 16px;
+}
+
+.od-info-section__ga1{
+  grid-area: eckdaten;
+  width: 421px;
+}
+
+.od-info-section__ga2{
+  grid-area: object;
+  width: 539px;
+}
+
+.od-info-section__ga3{
+  grid-area: details;
+}
+
+.od-info-section__ga4{
+  
+}
+
+.od-info-section__ga5{
+  
+}

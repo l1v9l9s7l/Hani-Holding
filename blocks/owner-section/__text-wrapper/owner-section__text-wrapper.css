@@ -3,3 +3,21 @@
   width: 458px;
   margin-left: 95px;
 }
+
+@media screen and (max-width: 1439px) {
+  .owner-section__text-wrapper{
+    padding-top: 80px;
+    width: 377px;
+    margin-left: 65px;
+  }
+  
+}
+
+@media screen and (max-width: 1023px) {
+  .owner-section__text-wrapper{
+    padding-top: 0px;
+    width: 293px;
+    margin-left: 0px;
+  }
+  
+}

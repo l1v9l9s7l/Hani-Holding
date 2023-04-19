@@ -1,0 +1,19 @@
+.od-standort-section{
+  width: 1052px;
+  margin: 70px 60px 0 auto;
+}
+
+.od-standort-section__text{
+  font-family: Cormorant;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4F4B4B;
+}
+
+
+.od-standort-section__image{
+  width: 100%;
+}

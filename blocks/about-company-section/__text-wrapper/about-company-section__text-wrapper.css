@@ -10,3 +10,26 @@
   padding-left: 80px;
   padding-bottom: 80px;
 }
+
+
+@media screen and (max-width: 1439px) {
+  .about-company-section__text-wrapper{
+    width: 634px;
+    height: 393px;
+    left: 71px;
+  }
+  
+}
+
+@media screen and (max-width: 1023px) {
+  .about-company-section__text-wrapper{
+    width: 320px;
+    height: 491px;
+    left: 50%;
+    margin-left: -160px;
+    padding-left: 0;
+    bottom: 130px;
+  }
+  
+}
+

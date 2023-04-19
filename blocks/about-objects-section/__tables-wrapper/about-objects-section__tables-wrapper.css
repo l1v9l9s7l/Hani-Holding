@@ -4,3 +4,38 @@
   margin-top: 50px;
   padding-bottom: 300px;
 }
+
+.about-objects-section__table-content-wrapper{}
+
+@media screen and (max-width: 1439px) {
+  .about-objects-section__tables-wrapper{
+    flex-direction: column;
+  }
+
+  .about-objects-section__table-content-wrapper{
+    margin: auto;
+  }
+
+  .about-objects-section__table-content-wrapper:nth-child(2){
+    margin: auto;
+    width: 626px;
+    padding-top: 70px;
+    padding-bottom: 150px;
+  }
+  
+}
+
+
+@media screen and (max-width: 1023px) {
+  .about-objects-section__table-content-wrapper:nth-child(2){
+    margin: auto;
+    width: 370px;
+    padding-top: 30px;
+    padding-bottom: 150px;
+  }
+
+  .about-objects-section__tables-wrapper{
+    padding-bottom: 100px;
+  }
+  
+}

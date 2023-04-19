@@ -4,3 +4,11 @@
   justify-content: center;
   top: -80px;
 }
+
+@media screen and (max-width: 1023px) {
+  .owner-section__wrapper{
+    flex-direction: column;
+    width: 293px;
+    top: -40px;
+  }
+}

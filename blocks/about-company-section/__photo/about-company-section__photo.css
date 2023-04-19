@@ -6,3 +6,18 @@
   padding-top: 200px;
   z-index: 0;
 }
+
+
+@media screen and (max-width: 1439px) {
+  .about-company-section__photo{
+    max-height: 462px;
+    padding-top: 100px;
+  }
+}
+
+
+@media screen and (max-width: 1023px) {
+  .about-company-section__photo{
+    width: 100%;
+  }
+}

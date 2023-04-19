@@ -4,3 +4,14 @@
   padding-top: 55px;
   left: 0;
 }
+
+@media screen and (max-width: 1439px) {
+  .about-company-section__logo{
+    position: absolute;
+    max-height: 245px;
+    padding-top: 55px;
+    left: 0;
+  }
+  
+}
+

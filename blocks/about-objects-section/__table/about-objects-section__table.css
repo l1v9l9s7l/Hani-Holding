@@ -1,3 +1,29 @@
 .about-objects-section__table{
   display: flex;
 }
+
+@media screen and (max-width: 1023px) {
+  .about-objects-section__table{
+    width: 358px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about-objects-section__table-column{
+    display: flex;
+    width: 291px;
+    flex-wrap: wrap;
+    margin-left: 0;
+  }
+  
+  .about-objects-section__table-cell-wrapper{
+    text-align: left;
+    margin-right: 5px;
+  }
+
+  .about-objects-section__table-cell-wrapper:nth-child(2){
+    padding-left: 52px;
+  }
+}
+
+

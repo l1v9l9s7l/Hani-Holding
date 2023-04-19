@@ -4,3 +4,11 @@
   padding-bottom: 100px;
   background-color: #FBF9F6;
 }
+
+
+@media screen and (max-width:1023px) {
+  .about-company-section{
+    height: 1000px;
+    padding-bottom: 0;
+  }
+}

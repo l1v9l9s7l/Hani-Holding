@@ -1,0 +1,24 @@
+.od-vr-section{
+  width: 1052px;
+  margin: 70px 60px 0 auto;
+}
+
+.od-vr-section__vr{
+  width: 100%;
+}
+
+.od-vr-section__text{
+  font-family: Cormorant;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4F4B4B;
+}
+
+.od-vr-section__image{
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

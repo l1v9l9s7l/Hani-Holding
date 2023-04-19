@@ -4,3 +4,11 @@
   font-family: 'Inter';
   margin: 0;
 }
+
+@media screen and (max-width: 1023px) {
+  .about-objects-section__table-cell-title{
+    font-size: 12px;
+    margin: 0;
+    max-width: 145px;
+  }
+}

@@ -30,6 +30,10 @@
     color: #4F4B4B;
     line-height: 20px;
   }
+
+  .owner-section__text:nth-child(1){
+    margin-top: 70px;
+  }
   
   .owner-section__text:nth-child(2){
     font-family: 'Inter';

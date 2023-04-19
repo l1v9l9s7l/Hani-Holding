@@ -18,3 +18,12 @@
     font-size: 41px;
   }
 }
+
+
+@media screen and (max-width: 1023px) {
+  .top-text{
+    font-size: 26px;
+    height: 16px;
+    margin: 0 13px 0 0;
+  }
+}
