@@ -41,6 +41,8 @@
   flex-direction: column;
   grid-area: fourb;
   border: none;
+  margin-left: 40px;
+  margin-top: 15px;
 }
 
 .os-top-section__form-font{
@@ -51,6 +53,7 @@
   letter-spacing: 0em;
   text-align: left;
   color: #856A4D;
+  margin-bottom: 8px;
 }
 
 /* Чекбоксы */
@@ -150,23 +153,45 @@
 	position: relative;
   border: none;
 }
-.os-top-section__text-input-label input[type=checkbox] {
-	z-index: -1;
-	opacity: 0;
+
+.os-top-section__text-input-label input[type=text] {
 	display: block;
-	width: 0;
-	height: 0;
-  border: none;
+  width: 228px;
+  height: 30px;
+  box-sizing: border-box;
+  /* padding: 0.4rem auto; */
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ff040400;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.os-top-section__text-input-label input[type=radio] {
-	z-index: -1;
-	opacity: 0;
-	display: block;
-	width: 0;
-	height: 0;
-  border: none;
+.os-top-section__text-input-label input[type=text]::placeholder {
+	color: #A68B6E;
+  font-family: Inter;
+font-size: 10px;
+font-weight: 500;
+letter-spacing: 0em;
+text-align: left;
+
+
 }
+
+.os-top-section__text-input-label input[type=text]:focus {
+	color: #212529;
+  background-color: #fff;
+  border-color: #bdbdbd00;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0);
+}
+
+
 
 .os-top-section__text-input-label span {
 	display: inline-block;
@@ -191,7 +216,7 @@
 /* установим отступ 1rem от нижнего края элемента */
 .text-field {
   display: flex;
-  margin-bottom: 1rem;
+  margin-bottom: 11px;
   text-align: center;
 }
 /* стили для label */
@@ -202,14 +227,31 @@
   font-size: 10px;
   font-weight: 500;
   letter-spacing: 0em;
-  text-align: center;
+  text-align: left;
   color: #856A4D;
   height: 10px;
   margin: auto 0 auto 0;
   width: 70px;
+}
+
+.text-field__label_two {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #856A4D;
+  height: 10px;
+  margin: auto 0 auto 0;
+  width: 42px;
 
 
 }
+
+
+
 /* стили для input */
 .text-field__input {
   box-sizing: border-box;
@@ -286,16 +328,31 @@
 .os-top-section__search{
   grid-area: threea;
   border: none;
+  position: absolute;
+  left: 280px;
+  width: 228px;
+  top: 274px;
 }
 
 .os-top-section__central-columns_one{
   grid-area: twob;
   border: none;
+  padding-top: 25px;
+  padding-right: 0;
+  border-left: 1px solid #C6BEAF;
+  height: 152px;
+  margin-top: 5px;
+  padding-left: 40px;
 }
 
 .os-top-section__central-columns_two{
   grid-area: threeb;
   border: none;
+  padding-top: 25px;
+  border-right: 1px solid #C6BEAF;
+  height: 152px;
+  margin-top: 5px;
+  padding-right: 40px;
 }
 
 .os-top-section__checkbox-btns{
@@ -304,5 +361,24 @@
 }
 
 .os-top-section__btn{
+  font-family: Inter;
+font-size: 12px;
+font-weight: 500;
+line-height: 13px;
+letter-spacing: 0em;
+text-align: left;
+
   grid-area: foura;
+  background-color: #A68B6E;
+  border-radius: 50px;
+  position: absolute;
+  right: 220px;
+  top: 278px;
+  height: 32px;
+  width: 122px;
+  background-image: url(../../images/os-suchen-arrow.png);
+  background-repeat: no-repeat;
+  background-size: 15px;
+  padding-right: 20px;
+  background-position: 85px 10px ;
 }
