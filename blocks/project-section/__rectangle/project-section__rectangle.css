@@ -1,5 +1,11 @@
 .project-section__rectangle{
   position: absolute;
-  height: 540px;
+  height: 100%;
   left: 70px;
+}
+
+@media screen and (max-width: 1023px) {
+  .project-section__rectangle{
+    display: none;
+  }
 }

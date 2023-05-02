@@ -19,6 +19,9 @@
 @media screen and (max-width: 1023px) {
   .form-section__form{
     top: -50px;
+    /* width: 278px; */
     width: 278px;
+    box-sizing: border-box;
+    padding: 41px 41px 41px 41px;
   }
 }

@@ -5,3 +5,20 @@
   text-align: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 1023px) {
+  .project-section__text-wrapper{
+    position:relative;
+    left: auto;
+    right: auto;
+    width: 320px;
+    height: 300px;
+    top: 400px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 5px 5px 0px #00000033;
+  }
+}

@@ -3,3 +3,10 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width:1023px) {
+  .project-section__string{
+    justify-content: left;
+    padding-left: 28px;
+  }
+}

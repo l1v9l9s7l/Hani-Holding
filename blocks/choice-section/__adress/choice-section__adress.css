@@ -1,6 +1,12 @@
 .choice-section__adress{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   font-family: 'Inter';
   color: #8A8585;
+}
+
+@media screen and (max-width: 1023px) {
+  .choice-section__adress{
+    display: none
+  }
 }

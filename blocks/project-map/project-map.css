@@ -7,3 +7,17 @@
   background-image: url(../../images/mapImage.jpg);
   background-size: cover;
 }
+
+
+@media screen and (max-width: 1439px) {
+  .project-map{
+    margin-bottom: 350px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .project-map{
+    background-image: url(../../images/project-zim-map-360.jpg);
+    margin-bottom: 100px;
+  }
+}
