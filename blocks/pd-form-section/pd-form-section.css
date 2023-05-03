@@ -27,6 +27,7 @@
   margin: 0 0 44px 0;
   font-weight: 700;
   color: #4F4B4B;
+  width: 320px;
 }
 
 .pd-form-section__image{
@@ -35,4 +36,52 @@
   width: 875px;
   left: 0px;
   border-radius: 8px;
+}
+
+@media screen and (max-width:1349px) {
+  .pd-form-section{
+    position: relative;
+    display: flex;
+    width: 100%;
+    display: flex;
+    margin-top: 91px;
+    right: 0;
+    padding-right: 0px;
+    margin-bottom: 120px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .pd-form-section__image{
+    padding-top: 100px;
+    height: 90vw;
+    width: 100%;
+    left: 0px;
+    border-radius: 0px;
+  }
+
+  .pd-form-section__form{
+    z-index: 2;
+    background-color: white;
+    border-radius: 0px;
+    padding: 67px 41px 59px 41px;
+    right: 0;
+    top: 400px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .pd-form-header-text{
+    font-family: 'Cormorant Unicase';
+    font-size: 25px;
+    text-align: center;
+    line-height: 23px;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 27px;
+  }
+  
+  .form-section__send-button{
+    margin: auto;
+  }
 }

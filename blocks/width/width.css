@@ -2,6 +2,12 @@
   width: 115px;
 }
 
+@media screen and (max-width: 1439px) {
+  .w-115 {
+    width: 90px;
+  }
+}
+
 .w-160 {
   width: 160px;
 }
