@@ -18,7 +18,7 @@
     <main class="main">
       <section class="od-top-section">
         <div class="od-top-section__image-wrapper">
-          <img class="od-top-section__image" src="./images/od-top-section-image.jpg" alt="" />
+          <div class="od-top-section__image"></div>
           <div class="od-top-section__next-page">
             <p class="od-top-section__uptitle">Nächste Wohnung</p>
             <img
@@ -33,6 +33,11 @@
           <div class="od-top-section__information-wrapper">
             <h2 class="od-top-section__uptitle">Objektnummer</h2>
             <h1 class="od-top-section__title">7209/61</h1>
+            <div class="od-top-section__360-information-wrapper">
+              <p class="od-top-section__360-uptitle">Projekt</p>
+              <p class="od-top-section__360-title">Kliebergasse 9</p>
+              <p class="od-top-section__360-title">1050 Wien</p>
+            </div>
             <div class="od-top-section__table">
               <div class="od-top-section__table-column">
                 <img
@@ -127,8 +132,8 @@
         <!-- GRID AREA 3 -->
         <div class="od-info-section__ga3">
           <p class="od-info-section__title">Details auf einen Blick:</p>
-          <div class="flex-container">
-            <ul class="od-info-section__ga3-text-wrapper mr49">
+          <div class="od-info-section__ga3-flex-container">
+            <ul class="od-info-section__ga3-text-wrapper">
               <li class="od-info-section__ga3-text">
                 Beeindruckende Penthousewohnung mit Rooftop-Terrasse und 360° Panoramablick
               </li>
@@ -141,7 +146,7 @@
               </li>
               <li class="od-info-section__ga3-text">Fußbodenheizungsverteiler in jeder Wohnung.</li>
             </ul>
-            <ul>
+            <ul class="od-info-section__ga3-text-wrapper">
               <li class="od-info-section__ga3-text">Exzellente Lage Wiens</li>
               <li class="od-info-section__ga3-text">
                 Apartments mit zwei bis vier Zimmern von ca. 46m² bis 125m²
@@ -156,11 +161,11 @@
       <!-- GALLERY -->
       <section class="od-gallery">
         <img class="od-gallery__image" src="./images/od-gallery-1.jpg" alt="" />
-        <img src="./images/od-gallery-2.jpg" alt="" />
-        <img src="./images/od-gallery-3.jpg" alt="" />
-        <img src="./images/od-gallery-4.jpg" alt="" />
-        <img src="./images/od-gallery-5.jpg" alt="" />
-        <img src="./images/od-gallery-6.jpg" alt="" />
+        <img class="od-gallery__image" src="./images/od-gallery-2.jpg" alt="" />
+        <img class="od-gallery__image" src="./images/od-gallery-3.jpg" alt="" />
+        <img class="od-gallery__image" src="./images/od-gallery-4.jpg" alt="" />
+        <img class="od-gallery__image" src="./images/od-gallery-5.jpg" alt="" />
+        <img class="od-gallery__image" src="./images/od-gallery-6.jpg" alt="" />
       </section>
       <section class="od-vr-section">
         <p class="od-vr-section__text">VR Tour:</p>
@@ -175,7 +180,7 @@
 
       <section class="pd-form-section">
         <form class="pd-form-section__form">
-          <p class="pd-form-header-text w-320">Termin vereinbaren</p>
+          <p class="pd-form-header-text">Termin vereinbaren</p>
           <div class="form-section__input-wrapper">
             <input
               placeholder="Name"
@@ -211,7 +216,7 @@
             />
           </div>
           <input placeholder="Nachricht" class="form-section__input mt7 mb24" type="text" />
-          <button type="submit" class="button_type_send-yellow">
+          <button type="submit" class="button_type_send-yellow form-section__send-button">
             Senden
             <img class="arrow-image" src="./images/arrow.svg" alt="" />
           </button>
@@ -220,8 +225,8 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__menu flex-container flex-container_justify_c">
-        <div class="footer__logo">
+      <div class="footer__menu">
+        <div class="footer__logo-wrapper">
           <img class="footer__logo" src="./images/footerLogo.png" alt="" />
         </div>
         <a class="footer__menu-text mr49" href="">Startseite</a>
@@ -230,7 +235,7 @@
         <a class="footer__menu-text mr49" href="">Über uns</a>
         <a class="footer__menu-text" href="">Kontakt</a>
       </div>
-      <div class="footer__contacts flex-container flex-container_justify_c">
+      <div class="footer__contacts">
         <div class="footer__contacts-text-wrapper">
           <p class="footer__contacts-text">Telefon</p>
           <p class="footer__contacts-text">+43 1 361 9916 11</p>

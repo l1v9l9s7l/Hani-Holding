@@ -59,6 +59,7 @@ text-align: left;
 
 .od-info-section__ga3-text-wrapper{
   padding-left: 16px;
+  margin-right: 49px;
 }
 
 .od-info-section__ga1{
@@ -75,10 +76,126 @@ text-align: left;
   grid-area: details;
 }
 
+.od-info-section__ga3-flex-container{
+  display: flex;
+}
+
 .od-info-section__ga4{
   
 }
 
 .od-info-section__ga5{
   
+}
+
+.od-top-section__360-information-wrapper{
+  display: none;
+}
+
+@media screen and (max-width: 1439px) {
+  .od-info-section{
+    gap: 86px;
+    width: 880px;
+    margin: 70px auto 0 auto;
+    height: 770px;
+  }
+
+  .od-info-section__ga2{
+    grid-area: object;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .od-info-section{
+    margin: 250px auto 0 auto;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+    "eckdaten"
+    "object"
+    "details"
+    "details";
+    width: 100%;
+    padding-bottom: 500px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
+
+  .od-info-section__ga1{
+    grid-area: eckdaten;
+    margin: auto;
+  }
+
+  .od-top-section__information-wrapper{
+    width: 100%;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .od-top-section__360-information-wrapper{
+    display: block;
+  }
+
+  .od-top-section__360-uptitle{
+    font-family: Libre Baskerville;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #83918F;
+    padding-left: 30px;
+    padding-top: 0px;
+  }
+
+  .od-top-section__360-title{
+    font-family: Gloock;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 5px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #83918F;
+    padding-left: 30px;
+  }
+
+  .od-top-section__table{
+    margin-top: 5px;
+  }
+
+  .od-top-section__information{
+    height: 270px;
+  }
+
+  .od-info-section__ga3-flex-container{
+    flex-direction: column;
+  }
+  
+  .od-info-section__ga3-text-wrapper{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .od-info-section__ga1{
+    grid-area: eckdaten;
+    width: 100%;
+  }
+
+  .od-info-section__ga1-text{
+    font-size: 12px;
+  
+  }
+
+  .od-info-section__ga2-text{
+    font-size: 12px;
+  
+  }
+
+  .od-info-section__ga2-text{
+    font-size: 13px;
+  
+  }
 }
