@@ -38,7 +38,7 @@
               <fieldset class="os-top-section__search">
                 <label class="os-top-section__text-input-label">
                   <span>
-                  <input class="" type="text" placeholder="Search" />
+                  <input class="os-top-section__search-input" type="text" placeholder="Search" />
                   </span>
                 </label>
               </fieldset>
@@ -140,7 +140,7 @@
             </form>
           </div>
         </div>
-        <img class="os-top-section__image" src="/images/os-top-section-image.jpg" alt="" />
+        <div class="os-top-section__image"></div>
       </section>
 
 
@@ -332,55 +332,31 @@
 
 
 
-      <section class="pd-form-section">
-        <form class="pd-form-section__form">
-          <p class="pd-form-header-text w-320">Termin vereinbaren</p>
+      <section class="form-section">
+        <form class="form-section__form">
+          <p class="form-header-text w-320">Termin vereinbaren</p>
           <div class="form-section__input-wrapper">
-            <input
-              placeholder="Name"
-              class="form-section__input form-section__input_size_small"
-              type="text"
-            />
-            <input
-              placeholder="Telefon"
-              class="form-section__input ml7 form-section__input_size_small"
-              type="text"
-            />
-            <input
-              placeholder="Email"
-              class="form-section__input ml7 form-section__input_size_small"
-              type="text"
-            />
+            <input placeholder="Name" class="form-section__input" type="text" />
+            <input placeholder="Telefon" class="form-section__input ml7" type="text" />
+            <input placeholder="Email" class="form-section__input ml7" type="text" />
           </div>
           <div class="form-section__input-wrapper mt7">
-            <input
-              placeholder="Besuchsdatum"
-              class="form-section__input form-section__input_size_small"
-              type="text"
-            />
-            <input
-              placeholder="Ortschaft"
-              class="form-section__input ml7 form-section__input_size_small"
-              type="text"
-            />
-            <input
-              placeholder="Besuchszeit"
-              class="form-section__input ml7 form-section__input_size_small"
-              type="text"
-            />
+            <input placeholder="Besuchsdatum" class="form-section__input" type="text" />
+            <input placeholder="Ortschaft" class="form-section__input ml7" type="text" />
+            <input placeholder="Besuchszeit" class="form-section__input ml7" type="text" />
           </div>
-          <input placeholder="Nachricht" class="form-section__input mt7 mb24" type="text" />
-          <button type="submit" class="button_type_send-yellow">
+          <input placeholder="Nachricht" class="mt7 mb24 form-section__last-input" type="text" />
+          <button type="submit" class="button_type_send-yellow ma">
             Senden
             <img class="arrow-image" src="./images/arrow.svg" alt="" />
           </button>
         </form>
-        <img class="pd-form-section__image" src="./images/pd-form-image.jpg" alt="" />
+        <img class="form-section__background-image" src="./images/bottomImage.jpg" alt="" />
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__menu flex-container flex-container_justify_c">
-        <div class="footer__logo">
+      <div class="footer__menu">
+        <div class="footer__logo-wrapper">
           <img class="footer__logo" src="./images/footerLogo.png" alt="" />
         </div>
         <a class="footer__menu-text mr49" href="">Startseite</a>
@@ -389,7 +365,7 @@
         <a class="footer__menu-text mr49" href="">Über uns</a>
         <a class="footer__menu-text" href="">Kontakt</a>
       </div>
-      <div class="footer__contacts flex-container flex-container_justify_c">
+      <div class="footer__contacts">
         <div class="footer__contacts-text-wrapper">
           <p class="footer__contacts-text">Telefon</p>
           <p class="footer__contacts-text">+43 1 361 9916 11</p>
