@@ -16,6 +16,36 @@
 
 .od-standort-section__image{
   width: 100%;
+  background-image: url(../../images/od-standort-image.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 412px;
+}
+
+.od-standort-section__buttons-container{
+  display: flex;
+  justify-content: right;
+  margin-top: 50px;
+}
+
+.od-standort-section__button{
+  background-color: #EFECE7;
+  color: #A68B6E;
+  width: 247px;
+  height: 52px;
+  margin-left: 10px;
+  font-family: Cormorant Unicase;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+
+}
+
+.od-standort-section__arrow{
+  height: 18px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 @media screen and (max-width:1439px) {
@@ -28,5 +58,36 @@
 @media screen and (max-width:1023px) {
   .od-standort-section{
     width: 100%;
+    margin-top: 0;
+  }
+
+  .od-standort-section__button{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    margin-right: 10px;
+  
+  }
+
+  .od-standort-section__arrow{
+    height: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .od-standort-section__buttons-container{
+    justify-content: center;
+    padding-left: 10px;
+  }
+
+  .od-standort-section__image{
+    width: 320px;
+    background-image: url(../../images/od-standort-map-img-360.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 412px;
+    margin: auto;
+    box-sizing: border-box;
   }
 }

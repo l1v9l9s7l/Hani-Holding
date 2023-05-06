@@ -19,5 +19,6 @@
 @media screen and (max-width: 1023px) {
   .about-company-section__photo{
     width: 100%;
+    padding-top: 0;
   }
 }

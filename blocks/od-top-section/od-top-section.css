@@ -149,7 +149,7 @@
     background-color: #EFECE7;
     width: 277px;
     height: 64px;
-    border-radius: 8px;
+    border-radius: 8px 0px 0px 8px;
     position: absolute;
     right: 0;
     bottom: 47px;

@@ -9,5 +9,6 @@
 @media screen and (max-width:1023px) {
   .owner-section{
     height: 850px;
+    margin-top: 100px;
   }
 }

@@ -2,9 +2,15 @@
   background-image: url(../../images/project-top-photo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0px -50px;
+  background-position: 0px 0px;
   height: 540px;
 }
+
+
+.project-section__button{
+  margin: auto;
+}
+
 
 
 
