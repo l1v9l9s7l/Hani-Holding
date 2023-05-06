@@ -14,38 +14,6 @@ text-align: left;
 color: #4F4B4B;
 }
 
-.kontakt-form-section__kontakt-wrapper{
-  width: 250px;
-  height: 350px;
-  margin-left: 176px;
-}
-
-.kontakt-form-section__form{
-  z-index: 2;
-  /* position: absolute; */
-  background-color: white;
-  border-radius: 8px;
-  padding: 67px 93px 59px 93px;
-  right: 0;
-  margin: 0 0 0 auto;
-}
-
-@media screen and (max-width: 1439px) {
-  .kontakt-form-section__form{
-    width: 640px;
-    height: 450;
-    top:-250px;
-  }
-}
-
-
-@media screen and (max-width: 1023px) {
-  .kontakt-form-section__form{
-    top: -50px;
-    width: 278px;
-  }
-}
-
 .kontakt-form-section__subtitle{
   font-family: Cormorant Unicase;
 font-size: 26px;
@@ -67,4 +35,86 @@ color: #4F4B4B;
 .kontakt-bottom-image{
   width: 100%;
   margin-top: 40px;
+  background-image: url(../../images/kontakt-bottom-image.jpg);
+  background-size: cover;
+  height: 509px;
 }
+
+.kontakt-form-section__kontakt-wrapper{
+  width: 250px;
+  height: 400px;
+  margin-left: 176px;
+}
+
+.kontakt-form-section__form{
+  z-index: 2;
+  /* position: absolute; */
+  background-color: white;
+  border-radius: 8px;
+  padding: 67px 93px 59px 93px;
+  right: 0;
+  margin: 0 0 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+  .kontakt-form-section__form{
+    width: 640px;
+    height: 450;
+    margin: auto;
+    position: absolute;
+    top: 530px;
+    left: 0;
+    right: 0;
+
+  }
+
+  .kontakt-form-section{
+    flex-direction: column;
+    height: 900px;
+    justify-content: center;
+  }
+
+  .kontakt-form-section__kontakt-wrapper{
+    margin: auto;
+    margin-top: 60px;
+  }
+
+  .kontakt-form-section__title{
+    text-align: center;
+
+  }
+
+  .kontakt-form-section__subtitle{
+    text-align: center;
+  }
+
+  .kontakt-form-section__text{
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 1023px) {
+  .kontakt-form-section__form{
+    top: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 38px;
+  }
+
+  .kontakt-form-section__title{
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .kontakt-form-section{
+    height: 1100px;
+  }
+
+  .kontakt-bottom-image{
+    background-image: url(../../images/kontakt-bottom-image-360.jpg);
+    height: 344px;
+  }
+}
+
+
